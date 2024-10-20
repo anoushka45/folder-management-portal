@@ -43,9 +43,13 @@ This project is a **Folder and Media Management System** designed to streamline 
 3. **End User Actions**:
    - Only sees media that has been approved by the Admin.
    - Can download and share approved media files.
-   
+
 4. **Home Page**:
    - Only sees media that has been approved by the Admin to get a glimpse.
+   
+## Screenshots
+   - some screenshots have been added in the screenshots folder for a glimpse of the project.
+   
    
 
 ## Project Structure
