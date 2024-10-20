@@ -1,0 +1,124 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f1f1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #b7202e;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.navbar-toggler-icon {
+  background-color: none;
+}
+
+.nav-item {
+  color: white;
+}
+
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top:10px;
+}
+
+h2 {
+  color: #060101;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 8px;
+  color: #555;
+  font-size: 14px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4caf50;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+button {
+  background-color: #b7202e;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  background-color: #333; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-links a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+/* Additional Styling for Responsive Design */
+@media (max-width: 400px) {
+  form {
+      width: 90%;
+  }
+}
+/* Define the keyframes for the fade-in animation */
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+/* Apply the fade-in animation to the login form */
+.fade-in {
+animation: fadeIn 1s ease-in-out;
+}

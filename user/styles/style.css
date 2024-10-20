@@ -1,0 +1,141 @@
+
+.wrapper {
+    background: #fff;
+}
+
+.folder-card {
+    box-shadow: none;
+}
+
+
+
+.list-item {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon {
+    margin-right: 8px;
+    /* Adjust space between icon and file name */
+}
+
+.file-name {
+    margin-right: 16px;
+    /* Adjust space between file name and select option */
+}
+
+.select-option {
+    margin-left: auto;
+    /* Pushes select option to the right end */
+}
+
+.select-label {
+    margin-left: 4px;
+    /* Space between checkbox and label */
+}
+
+.wrapper {
+    flex: 1;
+    background: #fff;
+    /* This pushes the footer to the bottom */
+}
+
+@media (max-width: 768px) {
+    .addfolder {
+        width: 100%;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+.video-item {
+    flex: 1 1 calc(33.33% - 10px);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.video-icon {
+    margin-right: 10px;
+}
+
+.video-title {
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.list-item,
+.video-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-item,
+.video-item:hover {}
+
+
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* The Modal (background) */
+.custom-modal-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (Image) */
+.custom-modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%; /* Limit width to 90% of the viewport width */
+    max-height: 90vh; /* Limit height to 90% of the viewport height */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute; /* Absolute positioning for centering */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+}
+
+/* The Close Button */
+.custom-close-button {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.custom-close-button:hover,
+.custom-close-button:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+

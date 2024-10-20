@@ -1,0 +1,92 @@
+.folder-card {
+  background-color: #f9fcff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Space content evenly */
+}
+
+.folder-card img {
+  max-height: 30px;
+  margin-right: 5px;
+  /* Set the maximum height for the logo */
+  /* Add some spacing between logo and text */
+}
+
+.folder-card:hover {
+  transform: scale(1.05);
+}
+
+.folder-card a {
+  text-decoration: none;
+  color: #212529;
+  /* Set text color for folder links */
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #0b1016;
+}
+
+
+
+.wrapper {
+  flex: 1;
+ background: black;
+  /* This pushes the footer to the bottom */
+}
+
+
+
+.folder-list {
+  list-style: none;
+  padding: 40px;
+  margin: 0;
+}
+
+
+
+
+.main-panel {
+  padding: 50px;
+  
+}
+
+
+
+
+
+.checkbox-container {
+  margin-top: 5px;
+}
+
+
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* This maintains the aspect ratio */
+}
+
+
+#createSubfolderForm {
+  margin-top: 10px;
+}
+
+.folder-card {
+  box-shadow: none;
+              }
+
